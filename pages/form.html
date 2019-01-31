@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Information form</title>
+  </head>
+  <h1>  </h1>
+  <body>
+<h2>This is a form for data entry</h2>
+
+<form>
+  <!--Text fields-->
+  First name:<br>
+<input type="text"required><br>
+Last name:<br>
+<input type="text"required><br>
+
+<!-- radio buttons-->
+How much effort are you willing to put into game design?<br>
+      <input name = "distance" value="<1" type="radio"> I am looking to make a career!<br>
+      <input type="radio" name = "distance" value = "1<5">I am just doing this as a hobby.<br>
+      <input type ="radio" name="distance" value=">5">I just want more information.<br>
+
+<!--Drop-down menu-->
+      <select name = "danceType" size="2" multiple required>
+        <option value="tango">Tango</option>
+        <option value="salsa">Salsa</option>
+        <option value="reggaeton">Reggaeton</select>
+      </select><br>
+
+<!--Text Area-->
+      <textarea name="experience" row="10" cols="30" placeholder="write aboout your dancing abilty" required>
+      </textarea><br>
+<textarea name="disclaimer" rows="5" cols="30" disabled>Oppinions can change over time. Your choice in answer could change based on your experience.</textarea>
+
+
+<input type="button" value="click to accept"><br>
+<input type="date"><br>
+      <input type="password" minlength="8" required>
+      <input type="submit"><br>
+      <input type="email" size="30" pattern=".+@gmail.com" required><br>
+      <label for="help">Do you want someone to help you fill out this form?</label>
+      <input type="checkbox" name="help">
+
+
+</form>
+
+
+
+  </body>
+</html>
